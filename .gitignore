@@ -1,0 +1,16 @@
+# build dir
+/lib
+
+# different working dirs/files
+coverage
+.notes
+node_modules
+
+npm-debug.log
+master.pid
+package-lock.json
+
+# external/system files
+**.sublime-project
+**.sublime-workspace
+.DS_Store

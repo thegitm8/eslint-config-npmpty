@@ -1,11 +1,11 @@
 {
   "name": "eslint-config-npmpty",
-  "private": true,
   "version": "0.1.0",
   "license": "MIT",
   "description": "Installable eslint config for npmpty default linting.",
   "keywords": [
-    "npmpty", "eslint"
+    "npmpty",
+    "eslint"
   ],
   "repository": {
     "type": "git",
@@ -16,11 +16,11 @@
     "url": "https://github.com/thegitm8/eslint-config-npmpty/issues",
     "mail": "thegitm8@users.noreply.github.com"
   },
-  "author": {
-    "name": "thegitm8"
-  },
+  "author": "Robert Docter <npmpty@antlike.tech>",
   "main": "eslint-config-npmpty.js",
-  "peerDependencies": {
-    "eslint": ">= 3"
+  "dependencies": {
+    "babel-eslint": "^7.2.3",
+    "babel-preset-env": "^1.6.0",
+    "eslint": "^4.1.1"
   }
 }

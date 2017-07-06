@@ -3,7 +3,6 @@ node_js:
   - "8"
   - "6"
   - "4"
-  - "iojs"
 cache:
   directories:
     - "node_modules"
@@ -12,3 +11,13 @@ branches:
   only:
   - master
   - develop
+
+install:
+  - npm install
+  - npm install -g snyk
+  - snyk test
+
+after_success:
+  - npm run coverage
+  - npm install -g codeclimate-test-reporter
+  - codeclimate-test-reporter < coverage/lcov.info

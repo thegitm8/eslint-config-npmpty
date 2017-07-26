@@ -7,7 +7,8 @@ module.exports = {
 	'env': {
 		'es6': true,
 		'node': true,
-		'commonjs': true
+		'commonjs': true,
+		'mocha': true
 	},
 	rules: {
 		'comma-dangle': 				[ 2, 'never' ],

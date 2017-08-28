@@ -92,7 +92,7 @@ module.exports = {
 		'comma-spacing': 				[ 1, { 'after': true } ],
 		'comma-style': 					1,
 		'eol-last': 					1,
-		'indent': 						[ 1, 'tab', { 'SwitchCase': 1 } ],
+		'indent': 						[ 1, 4, { 'SwitchCase': 1 } ],
 		'linebreak-style': 				[ 1, 'unix' ],
 		'new-parens': 					1,
 		'newline-after-var': 			[ 1, 'always' ],

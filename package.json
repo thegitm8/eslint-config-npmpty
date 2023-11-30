@@ -23,9 +23,9 @@
   "author": "Robert Docter <npmpty@antlike.tech>",
   "main": "eslint-config-npmpty.js",
   "dependencies": {
-    "babel-eslint": "^7.2.3",
+    "babel-eslint": "^8.0.2",
     "babel-preset-env": "^1.6.0",
-    "eslint": "^4.1.1"
+    "eslint": "^6.0.0"
   },
   "devDependencies": {
     "istanbul": "^0.4.5",

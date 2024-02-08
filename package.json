@@ -23,7 +23,7 @@
   "author": "Robert Docter <npmpty@antlike.tech>",
   "main": "eslint-config-npmpty.js",
   "dependencies": {
-    "babel-eslint": "^7.2.3",
+    "babel-eslint": "^10.1.0",
     "babel-preset-env": "^1.6.0",
     "eslint": "^4.1.1"
   },
